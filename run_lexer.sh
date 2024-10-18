@@ -11,7 +11,7 @@ for file in "${files[@]}"
 do
     if [ -f "$file" ]; then
         echo "Processing $file..."
-        python3 $lexer_prog "$file"
+        python $lexer_prog "$file"
         echo # Print a blank line to separate outputs
     else
         echo "File $file does not exist."
