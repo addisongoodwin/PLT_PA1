@@ -6,14 +6,17 @@ files=("test_input1.txt" "test_input2_unrecognized_chars.txt" "test_input3_long.
 # program to loop
 lexer_prog="lexer.py"
 
-# Loop through each file and run lexer.py, printing output to the terminal
+# output file
+output_file="lexer_out.txt"
+
+# Loop through each file and run lexer.py, printing output to the terminal and to the output file
 for file in "${files[@]}"
 do
     if [ -f "$file" ]; then
-        echo "Processing $file..."
-        python $lexer_prog "$file"
-        echo # Print a blank line to separate outputs
+        echo "Processing $file..." | tee -a $output_file
+        python $lexer_prog "$file" | tee -a $output_file
+        echo | tee -a $output_file # Print a blank line to separate outputs
     else
-        echo "File $file does not exist."
+        echo "File $file does not exist." | tee -a $output_file
     fi
 done
