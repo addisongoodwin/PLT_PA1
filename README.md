@@ -3,7 +3,9 @@
 ## Language Scanner (Tokenizer/Lexical Analyzer)
 Addison Goodwin, ag4423
 
-This project is a language scanner that will be used as part of a procedural story generator. The scanner (or tokenizer) breaks down input text into meaningful tokens to be processed by the next stages of the compiler or interpreter.
+This project is a language scanner that will be used as part of a procedural story generator. The scanner (AKA tokenizer or lexical analyzer) breaks down input text into meaningful tokens to be processed by the next stages of the compiler or interpreter. The tokens processed by this version of the scanner represent an early concept of the language as detained in the Project Proposal, with room for modification and expansion.
+Please see below for a list of rules and tokens understood by this lexer.
+The expected output from running on my personal computer can be found in `sample_output.txt`.
 
 ## How to Build and Run
 
@@ -52,5 +54,3 @@ IDENTIFIER        TOK_IDENTIFIER
 write story       TOK_WRITE_STORY_INST
 print character   TOK_PRINT_CHARACTER_INST
 ```
-
-The expected output from running on my personal computer can be found in `sample_output.txt`.
