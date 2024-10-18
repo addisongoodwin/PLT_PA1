@@ -33,7 +33,7 @@ The shell script should run automatically and display results of all 5 tests to 
 The shell script should run automatically and display results of all 5 tests to the terminal for convenient viewing with the logs section of the Docker container.
 
 ## Lexical grammar of this language
-
+```
 LEXEMA            TOKENS
 ------------------------------
 Character         TOK_CHARACTER
@@ -51,5 +51,6 @@ NUMBER            TOK_NUMBER
 IDENTIFIER        TOK_IDENTIFIER
 write story       TOK_WRITE_STORY_INST
 print character   TOK_PRINT_CHARACTER_INST
+```
 
 The expected output from running on my personal computer can be found in `sample_output.txt`.
