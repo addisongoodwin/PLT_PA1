@@ -33,34 +33,23 @@ The shell script should run automatically and display results of all 5 tests to 
 The shell script should run automatically and display results of all 5 tests to the terminal for convenient viewing with the logs section of the Docker container.
 
 ## Lexical grammar of this language
-...
 
-### LEMEMA            TOKENS
-
-<div style="display: flex; justify-content: space-between;">
-
-<div>
-
-**Character**: TOK_CHARACTER  
-**trait**: TOK_TRAIT  
-**evil**: TOK_EVIL  
-**strength**: TOK_STRENGTH  
-**Scenes**: TOK_SCENES  
-**event**: TOK_EVENT  
-
-</div>
-
-<div>
-
-**location**: TOK_LOCATION  
-**yes**: TOK_YES  
-**no**: TOK_NO  
-**NUMBER**: TOK_NUMBER  
-**=**: TOK_EQUALS  
-**IDENTIFIER**: TOK_IDENTIFIER  
-
-</div>
-
-</div>
+LEXEMA            TOKENS
+------------------------------
+Character         TOK_CHARACTER
+trait             TOK_TRAIT
+evil              TOK_EVIL
+strength          TOK_STRENGTH
+Scenes            TOK_SCENES
+event             TOK_EVENT
+location          TOK_LOCATION
+yes               TOK_YES
+no                TOK_NO
+NUMBER            TOK_NUMBER
+=                 TOK_EQUALS
+,                 TOK_COMMA
+IDENTIFIER        TOK_IDENTIFIER
+write story       TOK_WRITE_STORY_INST
+print character   TOK_PRINT_CHARACTER_INST
 
 The expected output from running on my personal computer can be found in `sample_output.txt`.
