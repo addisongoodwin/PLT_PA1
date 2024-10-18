@@ -1,0 +1,586 @@
+Processing test_input1.txt...
+Processing file: test_input1.txt
+<(TOK_IDENTIFIER, Characters)>
+<(TOK_IDENTIFIER, Alice)>
+<(TOK_EQUALS, =)>
+<(TOK_EVIL, False)>
+<(TOK_TRAIT, trait)>
+<(TOK_EQUALS, =)>
+<(TOK_IDENTIFIER, brave)>
+<(TOK_COMMA, ,)>
+<(TOK_IDENTIFIER, humble)>
+<(TOK_COMMA, ,)>
+<(TOK_IDENTIFIER, smart)>
+<(TOK_STRENGTH, strength)>
+<(TOK_EQUALS, =)>
+<(TOK_NUMBER, 10)>
+<(TOK_IDENTIFIER, Bob)>
+<(TOK_EQUALS, =)>
+<(TOK_EVIL, True)>
+<(TOK_TRAIT, trait)>
+<(TOK_EQUALS, =)>
+<(TOK_IDENTIFIER, big)>
+<(TOK_COMMA, ,)>
+<(TOK_IDENTIFIER, jealous)>
+<(TOK_STRENGTH, strength)>
+<(TOK_EQUALS, =)>
+<(TOK_NUMBER, 9)>
+<(TOK_IDENTIFIER, Addison)>
+<(TOK_TRAIT, trait)>
+<(TOK_EQUALS, =)>
+<(TOK_IDENTIFIER, confused)>
+<(TOK_STRENGTH, strength)>
+<(TOK_EQUALS, =)>
+<(TOK_NUMBER, 0)>
+<(TOK_SCENES, Scenes)>
+<(TOK_IDENTIFIER, One)>
+<(TOK_LOCATION, location)>
+<(TOK_EQUALS, =)>
+<(TOK_IDENTIFIER, classroom)>
+<(TOK_IDENTIFIER, characters)>
+<(TOK_EQUALS, =)>
+<(TOK_IDENTIFIER, Alice)>
+<(TOK_COMMA, ,)>
+<(TOK_IDENTIFIER, Bob)>
+<(TOK_COMMA, ,)>
+<(TOK_IDENTIFIER, Addison)>
+<(TOK_EVENT, event)>
+<(TOK_EQUALS, =)>
+<(TOK_IDENTIFIER, the lights go out)>
+<(TOK_IDENTIFIER, Two)>
+<(TOK_LOCATION, location)>
+<(TOK_EQUALS, =)>
+<(TOK_IDENTIFIER, village)>
+<(TOK_IDENTIFIER, characters)>
+<(TOK_EQUALS, =)>
+<(TOK_IDENTIFIER, Alice)>
+<(TOK_COMMA, ,)>
+<(TOK_IDENTIFIER, Bob)>
+<(TOK_EVENT, event)>
+<(TOK_EQUALS, =)>
+<(TOK_IDENTIFIER, fight)>
+<(TOK_WRITE_STORY_INST, write story)>
+
+Processing test_input2_unrecognized_chars.txt...
+Processing file: test_input2_unrecognized_chars.txt
+Unexpected character: :
+Unexpected character: :
+Unexpected character: :
+Unexpected character: :
+Unexpected character: :
+Unexpected character: :
+Unexpected character: &
+Unexpected character: :
+Unexpected character: ;
+<(TOK_IDENTIFIER, Characters)>
+<(TOK_IDENTIFIER, Alice)>
+<(TOK_EQUALS, =)>
+<(TOK_EVIL, False)>
+<(TOK_TRAIT, trait)>
+<(TOK_EQUALS, =)>
+<(TOK_IDENTIFIER, brave)>
+<(TOK_COMMA, ,)>
+<(TOK_IDENTIFIER, humble)>
+<(TOK_COMMA, ,)>
+<(TOK_IDENTIFIER, smart)>
+<(TOK_STRENGTH, strength)>
+<(TOK_EQUALS, =)>
+<(TOK_NUMBER, 10)>
+<(TOK_IDENTIFIER, Bob)>
+<(TOK_EQUALS, =)>
+<(TOK_EVIL, True)>
+<(TOK_TRAIT, trait)>
+<(TOK_EQUALS, =)>
+<(TOK_IDENTIFIER, big)>
+<(TOK_COMMA, ,)>
+<(TOK_IDENTIFIER, jealous)>
+<(TOK_STRENGTH, strength)>
+<(TOK_EQUALS, =)>
+<(TOK_NUMBER, 9)>
+<(TOK_IDENTIFIER, Addison)>
+<(TOK_TRAIT, trait)>
+<(TOK_EQUALS, =)>
+<(TOK_IDENTIFIER, confused)>
+<(TOK_STRENGTH, strength)>
+<(TOK_EQUALS, =)>
+<(TOK_NUMBER, 0)>
+<(TOK_SCENES, Scenes)>
+<(TOK_IDENTIFIER, One)>
+<(TOK_LOCATION, location)>
+<(TOK_EQUALS, =)>
+<(TOK_IDENTIFIER, classroom)>
+<(TOK_IDENTIFIER, characters)>
+<(TOK_EQUALS, =)>
+<(TOK_IDENTIFIER, Alice)>
+<(TOK_COMMA, ,)>
+<(TOK_IDENTIFIER, Bob)>
+<(TOK_COMMA, ,)>
+<(TOK_IDENTIFIER, Addison)>
+<(TOK_EVENT, event)>
+<(TOK_EQUALS, =)>
+<(TOK_IDENTIFIER, the lights go out)>
+<(TOK_IDENTIFIER, Two)>
+<(TOK_LOCATION, location)>
+<(TOK_EQUALS, =)>
+<(TOK_IDENTIFIER, village)>
+<(TOK_IDENTIFIER, characters)>
+<(TOK_EQUALS, =)>
+<(TOK_IDENTIFIER, Alice)>
+<(TOK_COMMA, ,)>
+<(TOK_IDENTIFIER, Bob)>
+<(TOK_EVENT, event)>
+<(TOK_EQUALS, =)>
+<(TOK_IDENTIFIER, fight)>
+<(TOK_WRITE_STORY_INST, write story)>
+
+Processing test_input3_long.txt...
+Processing file: test_input3_long.txt
+<(TOK_IDENTIFIER, Characters)>
+<(TOK_IDENTIFIER, Leonardo)>
+<(TOK_EQUALS, =)>
+<(TOK_EVIL, False)>
+<(TOK_TRAIT, trait)>
+<(TOK_EQUALS, =)>
+<(TOK_IDENTIFIER, brave)>
+<(TOK_COMMA, ,)>
+<(TOK_IDENTIFIER, humble)>
+<(TOK_COMMA, ,)>
+<(TOK_IDENTIFIER, smart)>
+<(TOK_STRENGTH, strength)>
+<(TOK_EQUALS, =)>
+<(TOK_NUMBER, 10)>
+<(TOK_IDENTIFIER, Picasso)>
+<(TOK_EQUALS, =)>
+<(TOK_EVIL, True)>
+<(TOK_TRAIT, trait)>
+<(TOK_EQUALS, =)>
+<(TOK_IDENTIFIER, big)>
+<(TOK_COMMA, ,)>
+<(TOK_IDENTIFIER, jealous)>
+<(TOK_STRENGTH, strength)>
+<(TOK_EQUALS, =)>
+<(TOK_NUMBER, 9)>
+<(TOK_IDENTIFIER, VanGogh)>
+<(TOK_TRAIT, trait)>
+<(TOK_EQUALS, =)>
+<(TOK_IDENTIFIER, confused)>
+<(TOK_STRENGTH, strength)>
+<(TOK_EQUALS, =)>
+<(TOK_NUMBER, 0)>
+<(TOK_IDENTIFIER, Frida)>
+<(TOK_EQUALS, =)>
+<(TOK_EVIL, False)>
+<(TOK_TRAIT, trait)>
+<(TOK_EQUALS, =)>
+<(TOK_IDENTIFIER, witty)>
+<(TOK_COMMA, ,)>
+<(TOK_IDENTIFIER, calm)>
+<(TOK_STRENGTH, strength)>
+<(TOK_EQUALS, =)>
+<(TOK_NUMBER, 7)>
+<(TOK_IDENTIFIER, Dali)>
+<(TOK_EQUALS, =)>
+<(TOK_EVIL, True)>
+<(TOK_TRAIT, trait)>
+<(TOK_EQUALS, =)>
+<(TOK_IDENTIFIER, sneaky)>
+<(TOK_COMMA, ,)>
+<(TOK_IDENTIFIER, quick)>
+<(TOK_STRENGTH, strength)>
+<(TOK_EQUALS, =)>
+<(TOK_NUMBER, 8)>
+<(TOK_SCENES, Scenes)>
+<(TOK_IDENTIFIER, One)>
+<(TOK_LOCATION, location)>
+<(TOK_EQUALS, =)>
+<(TOK_IDENTIFIER, classroom)>
+<(TOK_IDENTIFIER, characters)>
+<(TOK_EQUALS, =)>
+<(TOK_IDENTIFIER, Leonardo)>
+<(TOK_COMMA, ,)>
+<(TOK_IDENTIFIER, Picasso)>
+<(TOK_COMMA, ,)>
+<(TOK_IDENTIFIER, VanGogh)>
+<(TOK_EVENT, event)>
+<(TOK_EQUALS, =)>
+<(TOK_IDENTIFIER, painting class)>
+<(TOK_IDENTIFIER, Two)>
+<(TOK_LOCATION, location)>
+<(TOK_EQUALS, =)>
+<(TOK_IDENTIFIER, village)>
+<(TOK_IDENTIFIER, characters)>
+<(TOK_EQUALS, =)>
+<(TOK_IDENTIFIER, Leonardo)>
+<(TOK_COMMA, ,)>
+<(TOK_IDENTIFIER, Picasso)>
+<(TOK_EVENT, event)>
+<(TOK_EQUALS, =)>
+<(TOK_IDENTIFIER, pillow fight)>
+<(TOK_IDENTIFIER, Three)>
+<(TOK_LOCATION, location)>
+<(TOK_EQUALS, =)>
+<(TOK_IDENTIFIER, forest)>
+<(TOK_IDENTIFIER, characters)>
+<(TOK_EQUALS, =)>
+<(TOK_IDENTIFIER, Frida)>
+<(TOK_COMMA, ,)>
+<(TOK_IDENTIFIER, Dali)>
+<(TOK_COMMA, ,)>
+<(TOK_IDENTIFIER, Leonardo)>
+<(TOK_EVENT, event)>
+<(TOK_EQUALS, =)>
+<(TOK_IDENTIFIER, a mysterious shadow appears)>
+<(TOK_IDENTIFIER, Four)>
+<(TOK_LOCATION, location)>
+<(TOK_EQUALS, =)>
+<(TOK_IDENTIFIER, mountain)>
+<(TOK_IDENTIFIER, characters)>
+<(TOK_EQUALS, =)>
+<(TOK_IDENTIFIER, VanGogh)>
+<(TOK_COMMA, ,)>
+<(TOK_IDENTIFIER, Frida)>
+<(TOK_EVENT, event)>
+<(TOK_EQUALS, =)>
+<(TOK_IDENTIFIER, the ground starts shaking)>
+<(TOK_IDENTIFIER, Five)>
+<(TOK_LOCATION, location)>
+<(TOK_EQUALS, =)>
+<(TOK_IDENTIFIER, castle)>
+<(TOK_IDENTIFIER, characters)>
+<(TOK_EQUALS, =)>
+<(TOK_IDENTIFIER, Picasso)>
+<(TOK_COMMA, ,)>
+<(TOK_IDENTIFIER, Dali)>
+<(TOK_COMMA, ,)>
+<(TOK_IDENTIFIER, Leonardo)>
+<(TOK_EVENT, event)>
+<(TOK_EQUALS, =)>
+<(TOK_IDENTIFIER, the king is kidnapped)>
+<(TOK_WRITE_STORY_INST, write story)>
+
+Processing test_input4_error_correction.txt...
+Processing file: test_input4_error_correction.txt
+Expected 'Yes' or 'No', but found 'trait'. Default set to 'True'
+Expected a number after 'strength'. Default set to '0'
+Expected a number after 'strength'. Default set to '0'
+Expected a number after 'strength'. Default set to '0'
+Expected a number after 'strength'. Default set to '0'
+Expected a number after 'strength'. Default set to '0'
+<(TOK_IDENTIFIER, Characters)>
+<(TOK_IDENTIFIER, Leonardo)>
+<(TOK_EQUALS, =)>
+<(TOK_EVIL, True)>
+<(TOK_EQUALS, =)>
+<(TOK_IDENTIFIER, brave)>
+<(TOK_COMMA, ,)>
+<(TOK_IDENTIFIER, humble)>
+<(TOK_COMMA, ,)>
+<(TOK_IDENTIFIER, smart)>
+<(TOK_STRENGTH, strength)>
+<(TOK_EQUALS, =)>
+<(TOK_NUMBER, 0)>
+<(TOK_IDENTIFIER, Picasso)>
+<(TOK_EQUALS, =)>
+<(TOK_EVIL, True)>
+<(TOK_TRAIT, trait)>
+<(TOK_EQUALS, =)>
+<(TOK_IDENTIFIER, big)>
+<(TOK_COMMA, ,)>
+<(TOK_IDENTIFIER, jealous)>
+<(TOK_STRENGTH, strength)>
+<(TOK_EQUALS, =)>
+<(TOK_NUMBER, 0)>
+<(TOK_IDENTIFIER, VanGogh)>
+<(TOK_TRAIT, trait)>
+<(TOK_EQUALS, =)>
+<(TOK_IDENTIFIER, confused)>
+<(TOK_STRENGTH, strength)>
+<(TOK_EQUALS, =)>
+<(TOK_NUMBER, 0)>
+<(TOK_IDENTIFIER, Frida)>
+<(TOK_EQUALS, =)>
+<(TOK_EVIL, False)>
+<(TOK_TRAIT, trait)>
+<(TOK_EQUALS, =)>
+<(TOK_IDENTIFIER, witty)>
+<(TOK_COMMA, ,)>
+<(TOK_IDENTIFIER, calm)>
+<(TOK_STRENGTH, strength)>
+<(TOK_EQUALS, =)>
+<(TOK_NUMBER, 0)>
+<(TOK_IDENTIFIER, Dali)>
+<(TOK_EQUALS, =)>
+<(TOK_EVIL, True)>
+<(TOK_TRAIT, trait)>
+<(TOK_EQUALS, =)>
+<(TOK_IDENTIFIER, sneaky)>
+<(TOK_COMMA, ,)>
+<(TOK_IDENTIFIER, quick)>
+<(TOK_STRENGTH, strength)>
+<(TOK_EQUALS, =)>
+<(TOK_NUMBER, 0)>
+<(TOK_SCENES, Scenes)>
+<(TOK_IDENTIFIER, One)>
+<(TOK_LOCATION, location)>
+<(TOK_EQUALS, =)>
+<(TOK_IDENTIFIER, classroom)>
+<(TOK_IDENTIFIER, characters)>
+<(TOK_EQUALS, =)>
+<(TOK_IDENTIFIER, Leonardo)>
+<(TOK_COMMA, ,)>
+<(TOK_IDENTIFIER, Picasso)>
+<(TOK_COMMA, ,)>
+<(TOK_IDENTIFIER, VanGogh)>
+<(TOK_EVENT, event)>
+<(TOK_EQUALS, =)>
+<(TOK_IDENTIFIER, painting class)>
+<(TOK_IDENTIFIER, Two)>
+<(TOK_LOCATION, location)>
+<(TOK_EQUALS, =)>
+<(TOK_IDENTIFIER, village)>
+<(TOK_IDENTIFIER, characters)>
+<(TOK_EQUALS, =)>
+<(TOK_IDENTIFIER, Leonardo)>
+<(TOK_COMMA, ,)>
+<(TOK_IDENTIFIER, Picasso)>
+<(TOK_EVENT, event)>
+<(TOK_EQUALS, =)>
+<(TOK_IDENTIFIER, pillow fight)>
+<(TOK_IDENTIFIER, Three)>
+<(TOK_LOCATION, location)>
+<(TOK_EQUALS, =)>
+<(TOK_IDENTIFIER, forest)>
+<(TOK_IDENTIFIER, characters)>
+<(TOK_EQUALS, =)>
+<(TOK_IDENTIFIER, Frida)>
+<(TOK_COMMA, ,)>
+<(TOK_IDENTIFIER, Dali)>
+<(TOK_COMMA, ,)>
+<(TOK_IDENTIFIER, Leonardo)>
+<(TOK_EVENT, event)>
+<(TOK_EQUALS, =)>
+<(TOK_IDENTIFIER, a mysterious shadow appears)>
+<(TOK_IDENTIFIER, Four)>
+<(TOK_LOCATION, location)>
+<(TOK_EQUALS, =)>
+<(TOK_IDENTIFIER, mountain)>
+<(TOK_IDENTIFIER, characters)>
+<(TOK_EQUALS, =)>
+<(TOK_IDENTIFIER, VanGogh)>
+<(TOK_COMMA, ,)>
+<(TOK_IDENTIFIER, Frida)>
+<(TOK_EVENT, event)>
+<(TOK_EQUALS, =)>
+<(TOK_IDENTIFIER, the ground starts shaking)>
+<(TOK_IDENTIFIER, Five)>
+<(TOK_LOCATION, location)>
+<(TOK_EQUALS, =)>
+<(TOK_IDENTIFIER, castle)>
+<(TOK_IDENTIFIER, characters)>
+<(TOK_EQUALS, =)>
+<(TOK_IDENTIFIER, Picasso)>
+<(TOK_COMMA, ,)>
+<(TOK_IDENTIFIER, Dali)>
+<(TOK_COMMA, ,)>
+<(TOK_IDENTIFIER, Leonardo)>
+<(TOK_EVENT, event)>
+<(TOK_EQUALS, =)>
+<(TOK_IDENTIFIER, the king is kidnapped)>
+<(TOK_WRITE_STORY_INST, write story)>
+
+Processing test_input5.txt...
+Processing file: test_input5.txt
+Unexpected character: -
+Unexpected character: -
+Unexpected character: -
+Unexpected character: -
+Unexpected character: -
+Unexpected character: -
+Expected a number after 'strength'. Default set to '0'
+Unexpected character: -
+Unexpected character: -
+Unexpected character: -
+Unexpected character: -
+Unexpected character: -
+Unexpected character: -
+Unexpected character: -
+Unexpected character: -
+Unexpected character: -
+Unexpected character: -
+Unexpected character: -
+Unexpected character: -
+Unexpected character: -
+Unexpected character: -
+Unexpected character: -
+Unexpected character: -
+Unexpected character: -
+Unexpected character: -
+Unexpected character: -
+Unexpected character: -
+Unexpected character: -
+Unexpected character: -
+Unexpected character: -
+Unexpected character: -
+Unexpected character: -
+Unexpected character: -
+Unexpected character: -
+Unexpected character: -
+Unexpected character: -
+Unexpected character: -
+Unexpected character: -
+<(TOK_IDENTIFIER, Characters)>
+<(TOK_IDENTIFIER, Leonardo)>
+<(TOK_EQUALS, =)>
+<(TOK_EVIL, True)>
+<(TOK_TRAIT, trait)>
+<(TOK_EQUALS, =)>
+<(TOK_IDENTIFIER, brave)>
+<(TOK_COMMA, ,)>
+<(TOK_IDENTIFIER, ambitious)>
+<(TOK_STRENGTH, strength)>
+<(TOK_EQUALS, =)>
+<(TOK_NUMBER, 9999999999999)>
+<(TOK_IDENTIFIER, Picasso)>
+<(TOK_EQUALS, =)>
+<(TOK_EVIL, False)>
+<(TOK_TRAIT, trait)>
+<(TOK_EQUALS, =)>
+<(TOK_IDENTIFIER, rebellious)>
+<(TOK_STRENGTH, strength)>
+<(TOK_EQUALS, =)>
+<(TOK_NUMBER, 0)>
+<(TOK_NUMBER, 15)>
+<(TOK_IDENTIFIER, VanGogh)>
+<(TOK_EQUALS, =)>
+<(TOK_EVIL, False)>
+<(TOK_TRAIT, trait)>
+<(TOK_EQUALS, =)>
+<(TOK_IDENTIFIER, artistic)>
+<(TOK_COMMA, ,)>
+<(TOK_IDENTIFIER, troubled)>
+<(TOK_COMMA, ,)>
+<(TOK_IDENTIFIER, genius)>
+<(TOK_COMMA, ,)>
+<(TOK_IDENTIFIER, restless)>
+<(TOK_STRENGTH, strength)>
+<(TOK_EQUALS, =)>
+<(TOK_NUMBER, 5)>
+<(TOK_IDENTIFIER, Frida)>
+<(TOK_EQUALS, =)>
+<(TOK_EVIL, True)>
+<(TOK_TRAIT, trait)>
+<(TOK_EQUALS, =)>
+<(TOK_IDENTIFIER, fearless)>
+<(TOK_COMMA, ,)>
+<(TOK_IDENTIFIER, thoughtful)>
+<(TOK_STRENGTH, strength)>
+<(TOK_EQUALS, =)>
+<(TOK_NUMBER, 7)>
+<(TOK_IDENTIFIER, Dali)>
+<(TOK_TRAIT, trait)>
+<(TOK_EQUALS, =)>
+<(TOK_IDENTIFIER, imaginative)>
+<(TOK_COMMA, ,)>
+<(TOK_IDENTIFIER, eccentric)>
+<(TOK_STRENGTH, strength)>
+<(TOK_EQUALS, =)>
+<(TOK_NUMBER, 8)>
+<(TOK_IDENTIFIER, Daumier)>
+<(TOK_EQUALS, =)>
+<(TOK_EVIL, False)>
+<(TOK_TRAIT, trait)>
+<(TOK_EQUALS, =)>
+<(TOK_IDENTIFIER, sharp)>
+<(TOK_COMMA, ,)>
+<(TOK_IDENTIFIER, critical)>
+<(TOK_COMMA, ,)>
+<(TOK_IDENTIFIER, satirical)>
+<(TOK_STRENGTH, strength)>
+<(TOK_EQUALS, =)>
+<(TOK_NUMBER, 3)>
+<(TOK_SCENES, Scenes)>
+<(TOK_IDENTIFIER, One)>
+<(TOK_LOCATION, location)>
+<(TOK_EQUALS, =)>
+<(TOK_IDENTIFIER, gallery)>
+<(TOK_IDENTIFIER, characters)>
+<(TOK_EQUALS, =)>
+<(TOK_IDENTIFIER, Leonardo)>
+<(TOK_COMMA, ,)>
+<(TOK_IDENTIFIER, Picasso)>
+<(TOK_COMMA, ,)>
+<(TOK_IDENTIFIER, Dali)>
+<(TOK_EVENT, event)>
+<(TOK_EQUALS, =)>
+<(TOK_IDENTIFIER, the sculptures suddenly start talking)>
+<(TOK_IDENTIFIER, Two)>
+<(TOK_LOCATION, location)>
+<(TOK_EQUALS, =)>
+<(TOK_IDENTIFIER, village)>
+<(TOK_IDENTIFIER, characters)>
+<(TOK_EQUALS, =)>
+<(TOK_IDENTIFIER, VanGogh)>
+<(TOK_COMMA, ,)>
+<(TOK_IDENTIFIER, Frida)>
+<(TOK_EVENT, event)>
+<(TOK_EQUALS, =)>
+<(TOK_IDENTIFIER, strange symbols appear on every wall)>
+<(TOK_IDENTIFIER, Three)>
+<(TOK_LOCATION, location)>
+<(TOK_EQUALS, =)>
+<(TOK_IDENTIFIER, museum)>
+<(TOK_IDENTIFIER, characters)>
+<(TOK_EQUALS, =)>
+<(TOK_IDENTIFIER, Picasso)>
+<(TOK_COMMA, ,)>
+<(TOK_IDENTIFIER, Daumier)>
+<(TOK_COMMA, ,)>
+<(TOK_IDENTIFIER, Dali)>
+<(TOK_EVENT, event)>
+<(TOK_EQUALS, =)>
+<(TOK_IDENTIFIER, the lights flicker and reveal hidden paintings)>
+<(TOK_IDENTIFIER, Four)>
+<(TOK_LOCATION, location)>
+<(TOK_EQUALS, =)>
+<(TOK_IDENTIFIER, forest)>
+<(TOK_IDENTIFIER, characters)>
+<(TOK_EQUALS, =)>
+<(TOK_IDENTIFIER, Frida)>
+<(TOK_COMMA, ,)>
+<(TOK_IDENTIFIER, VanGogh)>
+<(TOK_COMMA, ,)>
+<(TOK_IDENTIFIER, Leonardo)>
+<(TOK_EVENT, event)>
+<(TOK_EQUALS, =)>
+<(TOK_IDENTIFIER, time moves backward, and everyone gets younger)>
+<(TOK_IDENTIFIER, Five)>
+<(TOK_LOCATION, location)>
+<(TOK_EQUALS, =)>
+<(TOK_IDENTIFIER, mountain)>
+<(TOK_IDENTIFIER, characters)>
+<(TOK_EQUALS, =)>
+<(TOK_IDENTIFIER, Picasso)>
+<(TOK_COMMA, ,)>
+<(TOK_IDENTIFIER, Dali)>
+<(TOK_COMMA, ,)>
+<(TOK_IDENTIFIER, Daumier)>
+<(TOK_EVENT, event)>
+<(TOK_EQUALS, =)>
+<(TOK_IDENTIFIER, a portal opens in the sky and swallows the mountain)>
+<(TOK_IDENTIFIER, Six)>
+<(TOK_LOCATION, location)>
+<(TOK_EQUALS, =)>
+<(TOK_IDENTIFIER, labyrinth)>
+<(TOK_IDENTIFIER, characters)>
+<(TOK_EQUALS, =)>
+<(TOK_IDENTIFIER, Leonardo)>
+<(TOK_COMMA, ,)>
+<(TOK_IDENTIFIER, Frida)>
+<(TOK_COMMA, ,)>
+<(TOK_IDENTIFIER, VanGogh)>
+<(TOK_EVENT, event)>
+<(TOK_EQUALS, =)>
+<(TOK_IDENTIFIER, the walls of the labyrinth shift and trap everyone inside)>
+<(TOK_IDENTIFIER, Instructions)>
+<(TOK_WRITE_STORY_INST, write story)>
+
