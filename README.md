@@ -24,15 +24,9 @@ docker build -t lexer-image .
 ### Run the Docker Container
 ```
 docker run lexer-image
-```
+```  
 
 The shell script should run automatically and display results of all 5 tests to the terminal for covenient viewing with the logs section of the Docker container.
-
-## Lexical grammar of this language
-...
-
-
-The shell script should run automatically and display results of all 5 tests to the terminal for convenient viewing with the logs section of the Docker container.
 
 ## Lexical grammar of this language
 ```
